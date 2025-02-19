@@ -17,7 +17,17 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
     
-    
+def triangle_area_bh(base, height):
+  return (1/2) * base * height
+
+
+base = float(input('Enter the base'))
+height =float(input('Enter the height'))
+area = triangle_area_bh(base, height)
+
+print('Enter the height:', height)
+print('Enter the base:', base)
+print(f"The area of the triangle is: {area}")    
     
     
     
