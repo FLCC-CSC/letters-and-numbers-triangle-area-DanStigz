@@ -27,6 +27,7 @@ jobs:
           is 0.5"
         comparison-method: exact
         timeout: 10
+        max-score: 10
     - name: Test Case 2 [8, 4]
       id: test-case-2-8-4
       uses: classroom-resources/autograding-io-grader@v1
@@ -41,6 +42,7 @@ jobs:
           is 16.0"
         comparison-method: exact
         timeout: 10
+        max-score: 10
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
