@@ -20,14 +20,12 @@
 def triangle_area_bh(base, height):
   return (1/2) * base * height
 
-height =float(input('Enter the height'))
-base = float(input('Enter the base'))
+height =float(input('Enter the height: '))
+base = float(input('Enter the base: '))
 area = triangle_area_bh(base, height)
 
-print('Enter the height:', height)
-print('Enter the base:', base)
-print()
 print(f"The area of the triangle is {area}")
+
 
     
     
