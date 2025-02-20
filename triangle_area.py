@@ -77,12 +77,14 @@ The area of the triangle is 16.0
 
 1. What is the flow of the program? Which line of code kicks off the process?
 
-
+Creating the function sets the parameters for the script to calculate the area and then the user input calls that function
 
 
 
 2. What was the hardest part of this lab?
-
+figuring out the exact way for the output to show up, with the blank line in between it. I am definitely struggling with the exactness of these, 
+I am used to having multiple ways to do things and being excited to see how my students have come up with alternatives, but it's the exactness that
+helps to clarify how things work in here. 
 
 
 
