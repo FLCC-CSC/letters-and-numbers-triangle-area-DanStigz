@@ -22,9 +22,9 @@ def triangle_area_bh(base, height):
 
 height =float(input('Enter the height: '))
 base = float(input('Enter the base: '))
-area = triangle_area_bh(base, height)
 
-print(f"The area of the triangle is {area}")
+print(f'The area of the triangle is {area}')
+
 
 
     
